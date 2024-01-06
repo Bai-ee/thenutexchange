@@ -169,7 +169,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-two gap no-bottom">
-          <p>Copyright © 2023. QuickEat. All rights reserved.</p>
+          <p>All rights reserved.</p>
           <div className="privacy">
             {" "}
             <a href="#">Privacy Policy</a> <a href="#">Terms &amp; Services</a>
