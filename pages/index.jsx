@@ -105,7 +105,7 @@ const Index = () => {
   return (
     <Layout>
       <section
-        className="hero-section gap"
+        className="hero-section gap "
         style={{ backgroundImage: "url(assets/img/background-1.png)" }}
       >
         <div className="container">
@@ -116,7 +116,7 @@ const Index = () => {
               data-aos-delay={200}
               data-aos-duration={300}
             >
-              <div className="restaurant">
+              <div className="restaurant" data-aos="fade-up">
                 <h1>
                   DISCOVER<br></br>
                   MINT<br></br>
@@ -142,11 +142,11 @@ const Index = () => {
             </div>
             <div
               className="col-lg-6"
-              data-aos="fade-up"
+              // data-aos="fade-up"
               data-aos-delay={300}
               data-aos-duration={400}
             >
-              <div className="img-restaurant">
+              <div className="img-restaurant" data-aos="fade-up">
                 <img alt="man" className="img-custo" src="assets/img/photo-1.png" />
                 {/* <div className="wilmington">
                   <img alt="img" src="assets/img/photo-2.jpg" />
@@ -176,7 +176,7 @@ const Index = () => {
       </section>
       {/* works-section */}
       <section className="works-section gap no-top">
-        <div className="container">
+        <div className="container" data-aos="fade-up">
 
 
         {/* <CryptoExchangeTable /> */}
