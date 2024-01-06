@@ -134,9 +134,9 @@ const Index = () => {
                     <option>Featured Collection</option>
                     <option>Featured Collection</option>
                   </select>{" "}
-                  <Link href="checkout" className="button button-2">
+                  <div href="checkout" className="button button-2">
                     BROWSE
-                  </Link>
+                  </div>
                 </div>
               </div>
             </div>
