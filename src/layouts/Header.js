@@ -116,9 +116,9 @@ const Header = ({ extraClass }) => {
 </svg>
 
                 </a>
-                {/* <div className="bar-menu" onClick={() => setMobileToggle(true)}>
+                <div className="bar-menu" onClick={() => setMobileToggle(true)}>
                   <i className="fa-solid fa-bars" />
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
@@ -174,20 +174,20 @@ const Header = ({ extraClass }) => {
           </div> */}
           <div className="menu-wrap">
             <div className="menu-inner ps ps--active-x ps--active-y">
-              {/* <span className="menu-cls-btn" onClick={(e) => onClick(e)}>
+              <span className="menu-cls-btn" onClick={(e) => onClick(e)}>
                 <i className="cls-leftright" />
                 <i className="cls-rightleft" />
-              </span> */}
-              {/* <CheckoutFuntion sidebar /> */}
+              </span>
+             <CheckoutFuntion sidebar />
             </div>
           </div>
-          {/* <div
+          <div
             className={`mobile-nav hmburger-menu ${mobileToggle ? "open" : ""}`}
             id="mobile-nav"
             style={{ display: "block" }}
           >
             <div className="res-log">
-              <Link href="/">
+              {/* <Link href="/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={163}
@@ -276,11 +276,11 @@ const Header = ({ extraClass }) => {
                     </text>
                   </g>
                 </svg>
-              </Link>
+              </Link> */}
             </div>
             <MobileMenu />
             <a href="#" id="res-cross" onClick={() => setMobileToggle(false)} />
-          </div> */}
+          </div>
         </div>
       </div>
     </header>

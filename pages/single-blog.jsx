@@ -3,7 +3,7 @@ import Link from "next/link";
 const SingleBlog = () => {
   return (
     <Layout>
-      <section
+      {/* <section
         className="hero-section about single-blog gap"
         style={{ backgroundImage: "url(assets/img/background-3.png)" }}
         data-aos="flip-up"
@@ -66,7 +66,7 @@ const SingleBlog = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* blog-content */}
       <section className="blog-content gap no-top">
         <div className="container">

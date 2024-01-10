@@ -12,11 +12,15 @@ const MobileMenu = () => {
         <Link href="/">Home</Link>
       </li>
       <li>
-        <Link href="about">About Us</Link>
+        <Link href="checkout">Cart</Link>
       </li>
-      <li className={`menu-item-has-children ${activeLi("Restaurants")}`}>
+      <li>
+        <Link href="restaurants">Profile</Link>
+      </li>
+      {/* <li className={`menu-item-has-children ${activeLi("Restaurants")}`}>
+
         <a href="#" onClick={() => activeMenuSet("Restaurants")}>
-          Restaurants
+          Profile
         </a>
         <ul className="sub-menu">
           <li>
@@ -29,10 +33,10 @@ const MobileMenu = () => {
             <Link href="checkout">Checkout</Link>
           </li>
         </ul>
-      </li>
+      </li> */}
       <li className={`menu-item-has-children ${activeLi("Pages")}`}>
         <a href="#" onClick={() => activeMenuSet("Pages")}>
-          Pages
+          Contact
         </a>
         <ul className="sub-menu">
           <li>
@@ -59,7 +63,7 @@ const MobileMenu = () => {
         </ul>
       </li>
       <li>
-        <Link href="contact">contacts</Link>
+        <Link href="contact">About</Link>
       </li>
     </ul>
   );

@@ -9,13 +9,13 @@ const Checkout = () => {
     <Layout>
       <section
         className="hero-section about checkout gap"
-        style={{ backgroundImage: "url(assets/img/background-3.png)" }}
+        style={{ backgroundImage: "url(assets/img/background-1.png)" }}
       >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-12">
               <div className="about-text pricing-table">
-                <ul
+                {/* <ul
                   className="crumbs d-flex"
                   data-aos="fade-up"
                   data-aos-delay={200}
@@ -39,24 +39,23 @@ const Checkout = () => {
                   <li className="two">
                     <Link href="/">
                       <i className="fa-solid fa-right-long" />
-                      Checkout
+                      
                     </Link>
                   </li>
-                </ul>
-                <h2
+                </ul> */}
+                <h1
                   data-aos="fade-up"
                   data-aos-delay={300}
                   data-aos-duration={400}
                 >
-                  Checkout
-                </h2>
+                  CART
+                </h1>
                 <p
                   data-aos="fade-up"
                   data-aos-delay={400}
                   data-aos-duration={500}
                 >
-                  Sit amet nisl purus in mollis nunc sed id semper. Condimentum
-                  id venenatis a condimentum vitae sapien pellentesque.
+                  CHECKOUT WITH WALLET
                 </p>
               </div>
             </div>
@@ -69,7 +68,7 @@ const Checkout = () => {
           <div className="row">
             <div
               className="col-xl-5 col-lg-12"
-              data-aos="flip-up"
+              data-aos="fade-up"
               data-aos-delay={200}
               data-aos-duration={300}
             >
@@ -77,25 +76,25 @@ const Checkout = () => {
             </div>
             <div
               className="offset-xl-1 col-xl-6 col-lg-12"
-              data-aos="flip-up"
-              data-aos-delay={300}
-              data-aos-duration={400}
+              // data-aos="flip-up"
+              // data-aos-delay={300}
+              // data-aos-duration={400}
             >
-              <form
+              {/* <form
                 onSubmit={(e) => e.preventDefault()}
                 className="checkout-form"
-              >
-                <h4>Buyer information</h4>
-                <input type="text" name="Name" placeholder="Full Name" />
-                <div className="row">
+              > */}
+                {/* <h4>WALLET</h4> */}
+                {/* <input type="text" name="Name" placeholder="Full Name" /> */}
+                {/* <div className="row">
                   <div className="col-lg-6">
                     <input type="text" name="E-mail" placeholder="E-mail" />
                   </div>
                   <div className="col-lg-6">
                     <input type="text" name="E-mail" placeholder="Phone" />
                   </div>
-                </div>
-                <h4 className="two">Delivery addresses</h4>
+                </div> */}
+                {/* <h4 className="two">Delivery addresses</h4>
                 <select className="nice-select Advice">
                   <option>California</option>
                   <option>California 1</option>
@@ -210,9 +209,9 @@ const Checkout = () => {
                       aria-labelledby="v-pills-profile-tab"
                     ></div>
                   </div>
-                </div>
-                <button className="button-price">Send</button>
-              </form>
+                </div> */}
+                <button className="button-price mt-4">CHECKOUT WITH WALLET</button>
+              {/* </form> */}
             </div>
           </div>
         </div>
