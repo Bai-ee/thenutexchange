@@ -17,6 +17,12 @@ const MobileMenu = () => {
       <li>
         <Link href="checkout">CART</Link>
       </li>
+      <li>
+        <Link href="restaurant-card">COLLECTION PAGE</Link>
+      </li>
+      <li>
+        <Link href="blog">EDITION PAGE</Link>
+      </li>
       {/* <li className={`menu-item-has-children ${activeLi("Restaurants")}`}>
 
         <a href="#" onClick={() => activeMenuSet("Restaurants")}>

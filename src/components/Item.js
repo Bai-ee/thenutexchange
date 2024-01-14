@@ -4,48 +4,64 @@ const Item = ({ item }) => {
   const [quantity, setQuantity] = useState(1);
   return (
     <div
-      className="col-xl-4 col-lg-6"
-      data-aos="flip-up"
+      className="edition_grid"
+      // data-aos="flip-up"
       data-aos-delay={200}
       data-aos-duration={300}
       key={item.id}
     >
-      <div className="dish">
-        <img alt="food-dish" src={item.image} />
+      <div id="edition_card">
+        <img class="edition_image"alt="edition image" src={item.image} />
         <div
-          className="dish-foods"
+          className="edition-card"
           style={{
             display: cardInfo == item.id ? "none" : "block",
           }}
         >
-          <h3>{item.title}</h3>
-          <div className="dish-icon">
-            <div className="cafa-button">
-              {" "}
-              {item.tags.map((tag, i) => (
-                <Fragment key={i}>
-                  <a href="#">{tag}</a>{" "}
-                </Fragment>
-              ))}
-            </div>
-            <div className="dish-icon end">
-              <i
+
+
+          <div className="edition-icon">
+
+          <p>{item.title}</p>
+          
+                  
+            {/* <div className="cafa-button"> */}
+              {/* {" "} */}
+              {/* {item.tags.map((tag, i) => ( */}
+                {/* // <Fragment key={i}> */}
+                  {/* <a href="#">{tag}</a>{" "} */}
+                {/* </Fragment> */}
+              {/* ))} */}
+            {/* </div> */}
+
+            <div className="edition-icon end">
+              {/* <i
                 className="info fa-solid fa-circle-info"
                 onClick={() =>
                   setCardInfo(cardInfo == item.id ? false : item.id)
                 }
-              />
-              <div className="star">
+              /> */}
+              {/* <div className="star">
                 {" "}
                 <a href="#">
                   <i className="fa-solid fa-heart" />
                 </a>
-              </div>
+              </div> */}
+              <p>#{item.edition}</p>
             </div>
           </div>
           <div className="price">
-            <h2>${item.price}</h2>
-            <div className="qty-input">
+            <div>
+          <p>PRICE</p>
+          <p> {item.price}</p>
+    
+            </div>
+            <div>
+          <p>LAST SALE</p>
+          <p class="lastSale"> {item.lastSale}</p>
+    
+            </div>
+            {/* <div className="qty-input">
               <button
                 className="qty-count qty-count--minus"
                 data-action="minus"
@@ -69,12 +85,12 @@ const Item = ({ item }) => {
               >
                 +
               </button>
-            </div>
+            </div> */}
           </div>
-          <button className="button-price">
+          {/* <button className="button-price">
             Add to Basket
             <i className="fa-solid fa-bag-shopping" />
-          </button>
+          </button> */}
         </div>
         <div
           className="dish-info"

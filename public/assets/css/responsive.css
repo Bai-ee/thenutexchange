@@ -15,10 +15,10 @@
     .single-blog .about-text h2{
         font-size: 42px;
     }
-    p{
-        font-size: 16px;
-        line-height: 26px;
-    }
+    /* p{
+        font-size: 8px;
+        line-height: 16px;
+    } */
     .address span {
         margin-top: -5px;
         display: block;
@@ -105,10 +105,10 @@
         width: 90%;
         height: auto;
     }
-    .about-img:before {
+    /* .about-img:before {
         height: 476px;
         width: 509px;
-    }
+    } */
     .our-mission-img img {
         width: 100%;
     }
@@ -356,6 +356,8 @@
     .about-text h2{
         width: 100%;
     }
+
+
     .previous-posts h6 {
         font-size: 18px;
         line-height: 28px;
@@ -742,6 +744,11 @@
     }
 }
 @media(max-width: 768px){
+
+    p{
+        font-size: 10px;
+        line-height: 16px;
+    }
     .error-page form input[type="text"],.mobile-nav,.menu-inner{
         width: 100%;
     }
@@ -926,6 +933,12 @@
     }
 }
 @media(max-width: 576px){
+
+    p{
+        font-size: 8px;
+        line-height: 12px;
+    }
+
     .error-page img {
         width: 100%;
     }
@@ -942,11 +955,21 @@
         padding: 40px;
     }
     .about-img img {
-        width: 80%;
+        width: 100%;
+        opacity:0.5;
+        display:none;
     }
     .benefit-text h2 {
         font-size: 34px;
         line-height: 49px;
+    }
+
+    .row {
+        --bs-gutter-y: 1.5rem;
+    }
+
+    #sidebar {
+        display:none;
     }
     .counter-hading h2 {
         font-size: 34px;
@@ -1111,10 +1134,12 @@
     .hours.two {
         top: 71%;
         left: 0;
+      display:none;
     }
     .hours {
         top: 6%;
         left: 32%;
+        display:none;
     }
     ul.crumbs li {
         padding-right: 10px;

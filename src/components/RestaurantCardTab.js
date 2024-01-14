@@ -11,9 +11,9 @@ const RestaurantCardTab = ({ items }) => {
             <div className="col-lg-12">
               <div
                 className="Provides"
-                data-aos="fade-up"
-                data-aos-delay={200}
-                data-aos-duration={300}
+                // data-aos="fade-up"
+                // data-aos-delay={200}
+                // data-aos-duration={300}
               >
                 <div
                   className="nav nav-pills me-3"
