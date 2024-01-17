@@ -1,8 +1,10 @@
 /* custom */
 :root {
     /* //custom */
-    --primary: #FEC16D;
-    --primary2: #35B746;
+        --primary: #35B746;
+    /* --primary: #FEC16D; */
+    --primary2: white;
+    /* --primary2: #35B746; */
     --highlight:#FEC16D;
     --hover: #2D69E5;
     --mainColor: #2B2B2B;
@@ -3662,7 +3664,7 @@ li.menu-item-has-children.active {
 }
 
 .activity-section {
-    /* background:#0c1114; */
+    background:#0c1114;
 
     display:flex;
     columns: 2;
@@ -3677,6 +3679,8 @@ li.menu-item-has-children.active {
     height: auto;
     flex-direction: column;
     align-content: space-around;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
     /* padding-top:120px; */
     /* border: 1px solid #16653F !important; */
     /* padding:10px; */
@@ -3939,7 +3943,7 @@ width:auto;
   .Switch__Track-sc-1u4na4u-0-dKdgxE {
     width: 18px;
     height: 18px;
-    background: var(--primary2) !important;
+    background: var(--highlight) !important;
     border-radius: 10px;
     margin-top: -1px;
     margin-left: -1px;
